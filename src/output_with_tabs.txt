@@ -1,0 +1,364 @@
+NetApp Release 9.15.1P6: Tue Dec  3 20:42:39 EST 2024
+	System ID: 0538364900 (AMPSSAN-EOB-001-01); partner ID: 0538374289 (AMPSSAN-EOB-001-02)
+	System Serial Number: 952446001006 (AMPSSAN-EOB-001-01)
+	System Rev: A9
+	System Storage Configuration: Multi-Path HA
+	System ACP Connectivity: Inband Active
+	SAS2/SAS3 Mixed Stack Support: all
+	All-Flash Optimized: true
+	Capacity Optimized: false
+	All SAN Array: false
+	Backplane Serial Number: Not Applicable
+	slot 0: System Board 1.7 GHz (System Board XXXV A9)
+		Model Name:         AFF-A1K
+		Part Number:        111-05119
+		Revision:           A9
+		Serial Number:      042445012515   
+		BIOS version:       20.4
+		Loader version:     8.4.2
+		Boot Flash:         Primary
+		Processors:         208
+		Processor ID:       0x806f8
+		Microcode Version:  0x2b0005d2
+		Processor type:     Intel(R) Xeon(R) Platinum 8470N
+		Memory Size:        1048448 MB
+		Memory Attributes:  Node Interleaving
+			Hoisting
+			Rank Interleaving
+			Channel Interleaving
+			Chipkill ECC
+		Controller:         A
+		TPM FW Version:     15.23.17664.0
+	Service Processor           Status: Online
+		Firmware Version:   18.3P2
+		Mgmt MAC Address:   d0:39:ea:ca:47:da
+		Ethernet Link:      up, 1Gbps
+		Using DHCP:         no
+	IPv4 configuration:
+		IP Address:         10.26.35.163
+		Netmask:            255.255.255.128
+		Gateway:            10.26.35.129
+	IPv6 configuration:         Disabled
+	slot 0: 2.5 GbE Ethernet I226 IT
+		e0M MAC Address:    d0:39:ea:ca:47:d8 (auto-1000t-fd-up)
+		e0S MAC Address:    d0:39:ea:ca:47:d9 (auto-1000t-fd-up)
+		Device Type:        I226 IT 0x125D (BSD99)
+		Firmware Version:   2.17-0.0 0x80000304
+	slot 0: QuickAssist Technology QAT4
+		QAT Devices:        8
+		Firmware Version:   1.1.20
+		MMP Binary Version: 6.0.0
+		Software Version:   3.14.0
+		Hardware Version:   64
+		slot 0: NVMe Boot Media #1 (0x144d,0xa80a) 
+			Boot Media #1 0X331511900503B0SAM000PM9A30002T00025000       NA01 1788GB  512B/sect     (S668NN0X901821)
+	slot 0: Intel USB XHCI Adapter u0b (0x0000200ffff60000)
+	slot 1: Dual 40G/100G Ethernet Controller CX6-DX
+		e1a MAC Address:    d0:39:ea:d0:ef:58 (auto-100g_cr4-fd-up)
+			QSFP Vendor:         Amphenol
+			QSFP Part Number:    112-00595
+			QSFP Serial Number:  APF20289213435
+		e1b MAC Address:    d0:39:ea:d0:ef:59 (auto-unknown-fd-down)
+			QSFP Vendor:         
+			QSFP Part Number:    
+			QSFP Serial Number:  
+		Device Type:        CX6-DX PSID(NAP0000000024)
+		Firmware Version:   22.41.1000
+		Part Number:        111-05088   
+		Hardware Revision:  C1
+		Serial Number:      042503003755  
+		slot 2: Fibre Channel Target Host Adapter 2a
+			(Emulex LPe38000 (LPe38004) rev. 14, <ONLINE>)
+			Board Name:        111-05096
+			Serial Number:     042432007239   
+			Firmware rev:      14.2.641.1
+			Host Port Addr:    940320
+			FC Nodename:       50:0a:09:80:80:33:b8:77 (500a09808033b877)
+			FC Portname:       50:0a:09:81:80:33:b8:77 (500a09818033b877)
+			Connection:        PTP, Fabric
+			Switch Port:       sssifc-eob-002:1/42
+		SFP Vendor Name:   WTD
+		SFP Vendor P/N:    RTXM520-571
+		SFP Vendor Rev:    1.0
+		SFP Serial No.:    MH242308160001
+		SFP Connector:     LC
+		SFP Capabilities:  16, 32, 64 Gbit/Sec
+		slot 2: Fibre Channel Target Host Adapter 2b
+			(Emulex LPe38000 (LPe38004) rev. 14, <ONLINE>)
+			Board Name:        111-05096
+			Serial Number:     042432007239   
+			Firmware rev:      14.2.641.1
+			Host Port Addr:    4406e0
+			FC Nodename:       50:0a:09:80:80:33:b8:77 (500a09808033b877)
+			FC Portname:       50:0a:09:82:80:33:b8:77 (500a09828033b877)
+			Connection:        PTP, Fabric
+			Switch Port:       sssifc-eob-001:1/42
+		SFP Vendor Name:   WTD
+		SFP Vendor P/N:    RTXM520-571
+		SFP Vendor Rev:    1.0
+		SFP Serial No.:    MH242308160035
+		SFP Connector:     LC
+		SFP Capabilities:  16, 32, 64 Gbit/Sec
+		slot 2: Fibre Channel Target Host Adapter 2c
+			(Emulex LPe38000 (LPe38004) rev. 14, <ONLINE>)
+			Board Name:        111-05096
+			Serial Number:     042432007239   
+			Firmware rev:      14.2.641.1
+			Host Port Addr:    9402e0
+			FC Nodename:       50:0a:09:80:80:33:b8:77 (500a09808033b877)
+			FC Portname:       50:0a:09:83:80:33:b8:77 (500a09838033b877)
+			Connection:        PTP, Fabric
+			Switch Port:       sssifc-eob-002:1/41
+		SFP Vendor Name:   WTD
+		SFP Vendor P/N:    RTXM520-571
+		SFP Vendor Rev:    1.0
+		SFP Serial No.:    MH242308160542
+		SFP Connector:     LC
+		SFP Capabilities:  16, 32, 64 Gbit/Sec
+		slot 2: Fibre Channel Target Host Adapter 2d
+			(Emulex LPe38000 (LPe38004) rev. 14, <ONLINE>)
+			Board Name:        111-05096
+			Serial Number:     042432007239   
+			Firmware rev:      14.2.641.1
+			Host Port Addr:    440180
+			FC Nodename:       50:0a:09:80:80:33:b8:77 (500a09808033b877)
+			FC Portname:       50:0a:09:84:80:33:b8:77 (500a09848033b877)
+			Connection:        PTP, Fabric
+			Switch Port:       sssifc-eob-001:1/41
+		SFP Vendor Name:   WTD
+		SFP Vendor P/N:    RTXM520-571
+		SFP Vendor Rev:    1.0
+		SFP Serial No.:    MH242308160559
+		SFP Connector:     LC
+		SFP Capabilities:  16, 32, 64 Gbit/Sec
+		slot 3: Fibre Channel Target Host Adapter 3a
+			(Emulex LPe38000 (LPe38004) rev. 14, <ONLINE>)
+			Board Name:        111-05096
+			Serial Number:     042432007337   
+			Firmware rev:      14.2.641.1
+			Host Port Addr:    940000
+			FC Nodename:       50:0a:09:80:80:33:b8:77 (500a09808033b877)
+			FC Portname:       50:0a:09:85:80:33:b8:77 (500a09858033b877)
+			Connection:        PTP, Fabric
+			Switch Port:       sssifc-eob-002:1/44
+		SFP Vendor Name:   WTD
+		SFP Vendor P/N:    RTXM520-571
+		SFP Vendor Rev:    1.0
+		SFP Serial No.:    MH242308160549
+		SFP Connector:     LC
+		SFP Capabilities:  16, 32, 64 Gbit/Sec
+		slot 3: Fibre Channel Target Host Adapter 3b
+			(Emulex LPe38000 (LPe38004) rev. 14, <ONLINE>)
+			Board Name:        111-05096
+			Serial Number:     042432007337   
+			Firmware rev:      14.2.641.1
+			Host Port Addr:    4402e0
+			FC Nodename:       50:0a:09:80:80:33:b8:77 (500a09808033b877)
+			FC Portname:       50:0a:09:86:80:33:b8:77 (500a09868033b877)
+			Connection:        PTP, Fabric
+			Switch Port:       sssifc-eob-001:1/44
+		SFP Vendor Name:   WTD
+		SFP Vendor P/N:    RTXM520-571
+		SFP Vendor Rev:    1.0
+		SFP Serial No.:    MH242308160558
+		SFP Connector:     LC
+		SFP Capabilities:  16, 32, 64 Gbit/Sec
+		slot 3: Fibre Channel Target Host Adapter 3c
+			(Emulex LPe38000 (LPe38004) rev. 14, <ONLINE>)
+			Board Name:        111-05096
+			Serial Number:     042432007337   
+			Firmware rev:      14.2.641.1
+			Host Port Addr:    940340
+			FC Nodename:       50:0a:09:80:80:33:b8:77 (500a09808033b877)
+			FC Portname:       50:0a:09:87:80:33:b8:77 (500a09878033b877)
+			Connection:        PTP, Fabric
+			Switch Port:       sssifc-eob-002:1/43
+		SFP Vendor Name:   WTD
+		SFP Vendor P/N:    RTXM520-571
+		SFP Vendor Rev:    1.0
+		SFP Serial No.:    MH242308160078
+		SFP Connector:     LC
+		SFP Capabilities:  16, 32, 64 Gbit/Sec
+		slot 3: Fibre Channel Target Host Adapter 3d
+			(Emulex LPe38000 (LPe38004) rev. 14, <ONLINE>)
+			Board Name:        111-05096
+			Serial Number:     042432007337   
+			Firmware rev:      14.2.641.1
+			Host Port Addr:    440300
+			FC Nodename:       50:0a:09:80:80:33:b8:77 (500a09808033b877)
+			FC Portname:       50:0a:09:88:80:33:b8:77 (500a09888033b877)
+			Connection:        PTP, Fabric
+			Switch Port:       sssifc-eob-001:1/43
+		SFP Vendor Name:   WTD
+		SFP Vendor P/N:    RTXM520-571
+		SFP Vendor Rev:    1.0
+		SFP Serial No.:    MH242308160053
+		SFP Connector:     LC
+		SFP Capabilities:  16, 32, 64 Gbit/Sec
+	slot 4: NVRAM (NVRAM 12)
+		Revision:           B1
+		Serial Number:      042445015130   
+		DIMM Size:          32768 MB
+		Memory Size:        65536 MB
+		Battery Status:     Battery sufficiently charged
+		Running Firmware:   1.0.3
+		MCU Revision:       1.4
+		SSD Model:          ATP NVMe M.2 2280 AF160GSAJA-NT1        
+		SSD Serial Number:  240901210171        
+		SSD Firmware:       NA01    
+	slot 6: Dual 40G/100G Ethernet Controller CX6-DX
+		e6a MAC Address:    d0:39:ea:d0:e4:ac (auto-unknown-fd-down)
+		e6b MAC Address:    d0:39:ea:d0:e4:ad (auto-unknown-fd-down)
+		Device Type:        CX6-DX PSID(NAP0000000024)
+		Firmware Version:   22.41.1000
+		Part Number:        111-05088   
+		Hardware Revision:  C1
+		Serial Number:      042503003980  
+	slot 7: Dual 40G/100G Ethernet Controller CX6-DX
+		e7a MAC Address:    d0:39:ea:d0:fa:7f (auto-100g_cr4-fd-up)
+			QSFP Vendor:         Amphenol
+			QSFP Part Number:    112-00595
+			QSFP Serial Number:  APF20289213502
+		e7b MAC Address:    d0:39:ea:d0:fa:80 (auto-unknown-fd-down)
+			QSFP Vendor:         
+			QSFP Part Number:    
+			QSFP Serial Number:  
+		Device Type:        CX6-DX PSID(NAP0000000024)
+		Firmware Version:   22.41.1000
+		Part Number:        111-05088   
+		Hardware Revision:  C1
+		Serial Number:      042503003477  
+	slot 8: Dual 40G/100G Ethernet Controller CX6-DX
+		e8a MAC Address:    d0:39:ea:d0:e9:f7 (auto-100g_cr4-fd-up)
+			QSFP Vendor:         Molex
+			QSFP Part Number:    112-00574
+			QSFP Serial Number:  93A2201220441
+			00.0.0: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701021)
+			00.0.1: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701030)
+			00.0.2: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701023)
+			00.0.3: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701033)
+			00.0.4: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701026)
+			00.0.5: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N700933)
+			00.0.6: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N600636)
+			00.0.7: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N600629)
+			00.0.8: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N700853)
+			00.0.9: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (22452T800515)
+			00.0.10: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (22452T800497)
+			00.0.11: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (22452T800536)
+			00.0.12: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (22414R800110)
+			00.0.13: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (22414R800435)
+			00.0.14: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (22452T800832)
+			00.0.15: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701029)
+			00.0.16: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701013)
+			00.0.17: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N600613)
+			00.0.18: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N700999)
+			00.0.19: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N700866)
+			00.0.20: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701002)
+			00.0.21: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N600644)
+			00.0.22: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N700854)
+			00.0.23: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N700856)
+			Shelf 0: NS224NSM100  Firmware rev. NSM100 A: 0240  NSM100 B: 0240
+		e8b MAC Address:    d0:39:ea:d0:e9:f8 (auto-100g_cr4-fd-up)
+			QSFP Vendor:         Amphenol
+			QSFP Part Number:    112-00573
+			QSFP Serial Number:  APF24449799910
+			01.3.0: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213512800213)
+			01.3.1: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (21352L800401)
+			01.3.2: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213512800478)
+			01.3.3: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (21352L800438)
+			01.3.4: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213512800012)
+			01.3.5: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213512800315)
+			01.3.18: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (21352L800555)
+			01.3.19: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (21350Z800094)
+			01.3.20: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213512800232)
+			01.3.21: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213512800067)
+			01.3.22: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213457800396)
+			01.3.23: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213457800363)
+			Shelf 1: NS224NSM100  Firmware rev. NSM100 A: 0240  NSM100 B: 0240
+		Device Type:        CX6-DX PSID(NAP0000000024)
+		Firmware Version:   22.41.1000
+		Part Number:        111-05088   
+		Hardware Revision:  C1
+		Serial Number:      042503004037  
+	slot 9: Dual 40G/100G Ethernet Controller CX6-DX
+		e9a MAC Address:    d0:39:ea:d1:04:a2 (auto-unknown-fd-down)
+		e9b MAC Address:    d0:39:ea:d1:04:a3 (auto-unknown-fd-down)
+		Device Type:        CX6-DX PSID(NAP0000000024)
+		Firmware Version:   22.41.1000
+		Part Number:        111-05088   
+		Hardware Revision:  C1
+		Serial Number:      042503002879  
+	slot 10: Dual 40G/100G Ethernet Controller CX6-DX
+		e10a MAC Address:   d0:39:ea:d0:ec:e5 (auto-100g_cr4-fd-up)
+			QSFP Vendor:         Amphenol
+			QSFP Part Number:    112-00573
+			QSFP Serial Number:  APF20459281824
+			01.0.0: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213512800213)
+			01.0.1: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (21352L800401)
+			01.0.2: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213512800478)
+			01.0.3: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (21352L800438)
+			01.0.4: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213512800012)
+			01.0.5: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213512800315)
+			01.0.18: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (21352L800555)
+			01.0.19: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (21350Z800094)
+			01.0.20: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213512800232)
+			01.0.21: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213512800067)
+			01.0.22: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213457800396)
+			01.0.23: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213457800363)
+			Shelf 1: NS224NSM100  Firmware rev. NSM100 A: 0240  NSM100 B: 0240
+		e10b MAC Address:   d0:39:ea:d0:ec:e6 (auto-100g_cr4-fd-up)
+			QSFP Vendor:         Amphenol
+			QSFP Part Number:    112-00574
+			QSFP Serial Number:  APF20279209656
+			00.3.0: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701021)
+			00.3.1: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701030)
+			00.3.2: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701023)
+			00.3.3: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701033)
+			00.3.4: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701026)
+			00.3.5: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N700933)
+			00.3.6: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N600636)
+			00.3.7: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N600629)
+			00.3.8: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N700853)
+			00.3.9: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (22452T800515)
+			00.3.10: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (22452T800497)
+			00.3.11: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (22452T800536)
+			00.3.12: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (22414R800110)
+			00.3.13: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (22414R800435)
+			00.3.14: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (22452T800832)
+			00.3.15: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701029)
+			00.3.16: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701013)
+			00.3.17: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N600613)
+			00.3.18: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N700999)
+			00.3.19: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N700866)
+			00.3.20: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701002)
+			00.3.21: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N600644)
+			00.3.22: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N700854)
+			00.3.23: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N700856)
+			Shelf 0: NS224NSM100  Firmware rev. NSM100 A: 0240  NSM100 B: 0240
+		Device Type:        CX6-DX PSID(NAP0000000024)
+		Firmware Version:   22.41.1000
+		Part Number:        111-05088   
+		Hardware Revision:  C1
+		Serial Number:      042503004255  
+	slot 11: Quad 10G/25G Ethernet Controller CX7
+		e11a MAC Address:   d0:39:ea:ca:32:7c (auto-unknown-fd-down)
+			SFP Vendor:         FINISAR CORP.
+			SFP Part Number:    FTLF8536P5BCL
+			SFP Serial Number:  ND1B3UJ
+		e11b MAC Address:   d0:39:ea:ca:32:7d (auto-unknown-fd-down)
+			SFP Vendor:         FINISAR CORP.
+			SFP Part Number:    FTLF8536P5BCL
+			SFP Serial Number:  NCTABV2
+		Device Type:        CX7-Q PSID(NAP0000000028)
+		Firmware Version:   28.41.1000
+		Part Number:        111-05093   
+		Hardware Revision:  B1
+		Serial Number:      042445011558  
+	slot 11: Quad 10G/25G Ethernet Controller CX7
+		e11c MAC Address:   d0:39:ea:ca:32:7e (auto-unknown-fd-down)
+		e11d MAC Address:   d0:39:ea:ca:32:7f (auto-unknown-fd-down)
+		Device Type:        CX7-Q PSID(NAP0000000028)
+		Firmware Version:   28.41.1000
+		Part Number:        111-05093   
+		Hardware Revision:  B1
+		Serial Number:      042445011558

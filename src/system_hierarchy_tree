@@ -1,0 +1,730 @@
+// System Hierarchy
+digraph {
+	node_0 [label="NetApp Release 9.15.1P6: Tue Dec  3 20:42:39 EST 2024"]
+	node_1 [label="System ID: 0538364900 (AMPSSAN-EOB-001-01); partner ID: 0538374289 (AMPSSAN-EOB-001-02)"]
+	node_0 -> node_1
+	node_2 [label="System Serial Number: 952446001006 (AMPSSAN-EOB-001-01)"]
+	node_0 -> node_2
+	node_3 [label="System Rev: A9"]
+	node_0 -> node_3
+	node_4 [label="System Storage Configuration: Multi-Path HA"]
+	node_0 -> node_4
+	node_5 [label="System ACP Connectivity: Inband Active"]
+	node_0 -> node_5
+	node_6 [label="SAS2/SAS3 Mixed Stack Support: all"]
+	node_0 -> node_6
+	node_7 [label="All-Flash Optimized: true"]
+	node_0 -> node_7
+	node_8 [label="Capacity Optimized: false"]
+	node_0 -> node_8
+	node_9 [label="All SAN Array: false"]
+	node_0 -> node_9
+	node_10 [label="Backplane Serial Number: Not Applicable"]
+	node_0 -> node_10
+	node_11 [label="slot 0: System Board 1.7 GHz (System Board XXXV A9)"]
+	node_0 -> node_11
+	node_12 [label="Model Name: AFF-A1K"]
+	node_11 -> node_12
+	node_13 [label="Part Number: 111-05119"]
+	node_11 -> node_13
+	node_14 [label="Revision: A9"]
+	node_11 -> node_14
+	node_15 [label="Serial Number: 042445012515"]
+	node_11 -> node_15
+	node_16 [label="BIOS version: 20.4"]
+	node_11 -> node_16
+	node_17 [label="Loader version: 8.4.2"]
+	node_11 -> node_17
+	node_18 [label="Boot Flash: Primary"]
+	node_11 -> node_18
+	node_19 [label="Processors: 208"]
+	node_11 -> node_19
+	node_20 [label="Processor ID: 0x806f8"]
+	node_11 -> node_20
+	node_21 [label="Microcode Version: 0x2b0005d2"]
+	node_11 -> node_21
+	node_22 [label="Processor type: Intel(R) Xeon(R) Platinum 8470N"]
+	node_11 -> node_22
+	node_23 [label="Memory Size: 1048448 MB"]
+	node_11 -> node_23
+	node_24 [label="Memory Attributes: Node Interleaving"]
+	node_11 -> node_24
+	node_25 [label=Hoisting]
+	node_24 -> node_25
+	node_26 [label="Rank Interleaving"]
+	node_24 -> node_26
+	node_27 [label="Channel Interleaving"]
+	node_24 -> node_27
+	node_28 [label="Chipkill ECC"]
+	node_24 -> node_28
+	node_29 [label="Controller: A"]
+	node_11 -> node_29
+	node_30 [label="TPM FW Version: 15.23.17664.0"]
+	node_11 -> node_30
+	node_31 [label="Service Processor           Status: Online"]
+	node_0 -> node_31
+	node_32 [label="Firmware Version: 18.3P2"]
+	node_31 -> node_32
+	node_33 [label="Mgmt MAC Address: d0:39:ea:ca:47:da"]
+	node_31 -> node_33
+	node_34 [label="Ethernet Link: up, 1Gbps"]
+	node_31 -> node_34
+	node_35 [label="Using DHCP: no"]
+	node_31 -> node_35
+	node_36 [label="IPv4 configuration: "]
+	node_0 -> node_36
+	node_37 [label="IP Address: 10.26.35.163"]
+	node_36 -> node_37
+	node_38 [label="Netmask: 255.255.255.128"]
+	node_36 -> node_38
+	node_39 [label="Gateway: 10.26.35.129"]
+	node_36 -> node_39
+	node_40 [label="IPv6 configuration: Disabled"]
+	node_0 -> node_40
+	node_41 [label="slot 0: 2.5 GbE Ethernet I226 IT"]
+	node_0 -> node_41
+	node_42 [label="e0M MAC Address: d0:39:ea:ca:47:d8 (auto-1000t-fd-up)"]
+	node_41 -> node_42
+	node_43 [label="e0S MAC Address: d0:39:ea:ca:47:d9 (auto-1000t-fd-up)"]
+	node_41 -> node_43
+	node_44 [label="Device Type: I226 IT 0x125D (BSD99)"]
+	node_41 -> node_44
+	node_45 [label="Firmware Version: 2.17-0.0 0x80000304"]
+	node_41 -> node_45
+	node_46 [label="slot 0: QuickAssist Technology QAT4"]
+	node_0 -> node_46
+	node_47 [label="QAT Devices: 8"]
+	node_46 -> node_47
+	node_48 [label="Firmware Version: 1.1.20"]
+	node_46 -> node_48
+	node_49 [label="MMP Binary Version: 6.0.0"]
+	node_46 -> node_49
+	node_50 [label="Software Version: 3.14.0"]
+	node_46 -> node_50
+	node_51 [label="Hardware Version: 64"]
+	node_46 -> node_51
+	node_52 [label="slot 0: NVMe Boot Media #1 (0x144d,0xa80a)"]
+	node_46 -> node_52
+	node_53 [label="Boot Media #1 0X331511900503B0SAM000PM9A30002T00025000       NA01 1788GB  512B/sect     (S668NN0X901821)"]
+	node_52 -> node_53
+	node_54 [label="slot 0: Intel USB XHCI Adapter u0b (0x0000200ffff60000)"]
+	node_0 -> node_54
+	node_55 [label="slot 1: Dual 40G/100G Ethernet Controller CX6-DX"]
+	node_0 -> node_55
+	node_56 [label="e1a MAC Address: d0:39:ea:d0:ef:58 (auto-100g_cr4-fd-up)"]
+	node_55 -> node_56
+	node_57 [label="QSFP Vendor: Amphenol"]
+	node_56 -> node_57
+	node_58 [label="QSFP Part Number: 112-00595"]
+	node_56 -> node_58
+	node_59 [label="QSFP Serial Number: APF20289213435"]
+	node_56 -> node_59
+	node_60 [label="e1b MAC Address: d0:39:ea:d0:ef:59 (auto-unknown-fd-down)"]
+	node_55 -> node_60
+	node_61 [label="QSFP Vendor: "]
+	node_60 -> node_61
+	node_62 [label="QSFP Part Number: "]
+	node_60 -> node_62
+	node_63 [label="QSFP Serial Number: "]
+	node_60 -> node_63
+	node_64 [label="Device Type: CX6-DX PSID(NAP0000000024)"]
+	node_55 -> node_64
+	node_65 [label="Firmware Version: 22.41.1000"]
+	node_55 -> node_65
+	node_66 [label="Part Number: 111-05088"]
+	node_55 -> node_66
+	node_67 [label="Hardware Revision: C1"]
+	node_55 -> node_67
+	node_68 [label="Serial Number: 042503003755"]
+	node_55 -> node_68
+	node_69 [label="slot 2: Fibre Channel Target Host Adapter 2a"]
+	node_55 -> node_69
+	node_70 [label="(Emulex LPe38000 (LPe38004) rev. 14, <ONLINE>)"]
+	node_69 -> node_70
+	node_71 [label="Board Name: 111-05096"]
+	node_69 -> node_71
+	node_72 [label="Serial Number: 042432007239"]
+	node_69 -> node_72
+	node_73 [label="Firmware rev: 14.2.641.1"]
+	node_69 -> node_73
+	node_74 [label="Host Port Addr: 940320"]
+	node_69 -> node_74
+	node_75 [label="FC Nodename: 50:0a:09:80:80:33:b8:77 (500a09808033b877)"]
+	node_69 -> node_75
+	node_76 [label="FC Portname: 50:0a:09:81:80:33:b8:77 (500a09818033b877)"]
+	node_69 -> node_76
+	node_77 [label="Connection: PTP, Fabric"]
+	node_69 -> node_77
+	node_78 [label="Switch Port: sssifc-eob-002:1/42"]
+	node_69 -> node_78
+	node_79 [label="SFP Vendor Name: WTD"]
+	node_55 -> node_79
+	node_80 [label="SFP Vendor P/N: RTXM520-571"]
+	node_55 -> node_80
+	node_81 [label="SFP Vendor Rev: 1.0"]
+	node_55 -> node_81
+	node_82 [label="SFP Serial No.: MH242308160001"]
+	node_55 -> node_82
+	node_83 [label="SFP Connector: LC"]
+	node_55 -> node_83
+	node_84 [label="SFP Capabilities: 16, 32, 64 Gbit/Sec"]
+	node_55 -> node_84
+	node_85 [label="slot 2: Fibre Channel Target Host Adapter 2b"]
+	node_55 -> node_85
+	node_86 [label="(Emulex LPe38000 (LPe38004) rev. 14, <ONLINE>)"]
+	node_85 -> node_86
+	node_87 [label="Board Name: 111-05096"]
+	node_85 -> node_87
+	node_88 [label="Serial Number: 042432007239"]
+	node_85 -> node_88
+	node_89 [label="Firmware rev: 14.2.641.1"]
+	node_85 -> node_89
+	node_90 [label="Host Port Addr: 4406e0"]
+	node_85 -> node_90
+	node_91 [label="FC Nodename: 50:0a:09:80:80:33:b8:77 (500a09808033b877)"]
+	node_85 -> node_91
+	node_92 [label="FC Portname: 50:0a:09:82:80:33:b8:77 (500a09828033b877)"]
+	node_85 -> node_92
+	node_93 [label="Connection: PTP, Fabric"]
+	node_85 -> node_93
+	node_94 [label="Switch Port: sssifc-eob-001:1/42"]
+	node_85 -> node_94
+	node_95 [label="SFP Vendor Name: WTD"]
+	node_55 -> node_95
+	node_96 [label="SFP Vendor P/N: RTXM520-571"]
+	node_55 -> node_96
+	node_97 [label="SFP Vendor Rev: 1.0"]
+	node_55 -> node_97
+	node_98 [label="SFP Serial No.: MH242308160035"]
+	node_55 -> node_98
+	node_99 [label="SFP Connector: LC"]
+	node_55 -> node_99
+	node_100 [label="SFP Capabilities: 16, 32, 64 Gbit/Sec"]
+	node_55 -> node_100
+	node_101 [label="slot 2: Fibre Channel Target Host Adapter 2c"]
+	node_55 -> node_101
+	node_102 [label="(Emulex LPe38000 (LPe38004) rev. 14, <ONLINE>)"]
+	node_101 -> node_102
+	node_103 [label="Board Name: 111-05096"]
+	node_101 -> node_103
+	node_104 [label="Serial Number: 042432007239"]
+	node_101 -> node_104
+	node_105 [label="Firmware rev: 14.2.641.1"]
+	node_101 -> node_105
+	node_106 [label="Host Port Addr: 9402e0"]
+	node_101 -> node_106
+	node_107 [label="FC Nodename: 50:0a:09:80:80:33:b8:77 (500a09808033b877)"]
+	node_101 -> node_107
+	node_108 [label="FC Portname: 50:0a:09:83:80:33:b8:77 (500a09838033b877)"]
+	node_101 -> node_108
+	node_109 [label="Connection: PTP, Fabric"]
+	node_101 -> node_109
+	node_110 [label="Switch Port: sssifc-eob-002:1/41"]
+	node_101 -> node_110
+	node_111 [label="SFP Vendor Name: WTD"]
+	node_55 -> node_111
+	node_112 [label="SFP Vendor P/N: RTXM520-571"]
+	node_55 -> node_112
+	node_113 [label="SFP Vendor Rev: 1.0"]
+	node_55 -> node_113
+	node_114 [label="SFP Serial No.: MH242308160542"]
+	node_55 -> node_114
+	node_115 [label="SFP Connector: LC"]
+	node_55 -> node_115
+	node_116 [label="SFP Capabilities: 16, 32, 64 Gbit/Sec"]
+	node_55 -> node_116
+	node_117 [label="slot 2: Fibre Channel Target Host Adapter 2d"]
+	node_55 -> node_117
+	node_118 [label="(Emulex LPe38000 (LPe38004) rev. 14, <ONLINE>)"]
+	node_117 -> node_118
+	node_119 [label="Board Name: 111-05096"]
+	node_117 -> node_119
+	node_120 [label="Serial Number: 042432007239"]
+	node_117 -> node_120
+	node_121 [label="Firmware rev: 14.2.641.1"]
+	node_117 -> node_121
+	node_122 [label="Host Port Addr: 440180"]
+	node_117 -> node_122
+	node_123 [label="FC Nodename: 50:0a:09:80:80:33:b8:77 (500a09808033b877)"]
+	node_117 -> node_123
+	node_124 [label="FC Portname: 50:0a:09:84:80:33:b8:77 (500a09848033b877)"]
+	node_117 -> node_124
+	node_125 [label="Connection: PTP, Fabric"]
+	node_117 -> node_125
+	node_126 [label="Switch Port: sssifc-eob-001:1/41"]
+	node_117 -> node_126
+	node_127 [label="SFP Vendor Name: WTD"]
+	node_55 -> node_127
+	node_128 [label="SFP Vendor P/N: RTXM520-571"]
+	node_55 -> node_128
+	node_129 [label="SFP Vendor Rev: 1.0"]
+	node_55 -> node_129
+	node_130 [label="SFP Serial No.: MH242308160559"]
+	node_55 -> node_130
+	node_131 [label="SFP Connector: LC"]
+	node_55 -> node_131
+	node_132 [label="SFP Capabilities: 16, 32, 64 Gbit/Sec"]
+	node_55 -> node_132
+	node_133 [label="slot 3: Fibre Channel Target Host Adapter 3a"]
+	node_55 -> node_133
+	node_134 [label="(Emulex LPe38000 (LPe38004) rev. 14, <ONLINE>)"]
+	node_133 -> node_134
+	node_135 [label="Board Name: 111-05096"]
+	node_133 -> node_135
+	node_136 [label="Serial Number: 042432007337"]
+	node_133 -> node_136
+	node_137 [label="Firmware rev: 14.2.641.1"]
+	node_133 -> node_137
+	node_138 [label="Host Port Addr: 940000"]
+	node_133 -> node_138
+	node_139 [label="FC Nodename: 50:0a:09:80:80:33:b8:77 (500a09808033b877)"]
+	node_133 -> node_139
+	node_140 [label="FC Portname: 50:0a:09:85:80:33:b8:77 (500a09858033b877)"]
+	node_133 -> node_140
+	node_141 [label="Connection: PTP, Fabric"]
+	node_133 -> node_141
+	node_142 [label="Switch Port: sssifc-eob-002:1/44"]
+	node_133 -> node_142
+	node_143 [label="SFP Vendor Name: WTD"]
+	node_55 -> node_143
+	node_144 [label="SFP Vendor P/N: RTXM520-571"]
+	node_55 -> node_144
+	node_145 [label="SFP Vendor Rev: 1.0"]
+	node_55 -> node_145
+	node_146 [label="SFP Serial No.: MH242308160549"]
+	node_55 -> node_146
+	node_147 [label="SFP Connector: LC"]
+	node_55 -> node_147
+	node_148 [label="SFP Capabilities: 16, 32, 64 Gbit/Sec"]
+	node_55 -> node_148
+	node_149 [label="slot 3: Fibre Channel Target Host Adapter 3b"]
+	node_55 -> node_149
+	node_150 [label="(Emulex LPe38000 (LPe38004) rev. 14, <ONLINE>)"]
+	node_149 -> node_150
+	node_151 [label="Board Name: 111-05096"]
+	node_149 -> node_151
+	node_152 [label="Serial Number: 042432007337"]
+	node_149 -> node_152
+	node_153 [label="Firmware rev: 14.2.641.1"]
+	node_149 -> node_153
+	node_154 [label="Host Port Addr: 4402e0"]
+	node_149 -> node_154
+	node_155 [label="FC Nodename: 50:0a:09:80:80:33:b8:77 (500a09808033b877)"]
+	node_149 -> node_155
+	node_156 [label="FC Portname: 50:0a:09:86:80:33:b8:77 (500a09868033b877)"]
+	node_149 -> node_156
+	node_157 [label="Connection: PTP, Fabric"]
+	node_149 -> node_157
+	node_158 [label="Switch Port: sssifc-eob-001:1/44"]
+	node_149 -> node_158
+	node_159 [label="SFP Vendor Name: WTD"]
+	node_55 -> node_159
+	node_160 [label="SFP Vendor P/N: RTXM520-571"]
+	node_55 -> node_160
+	node_161 [label="SFP Vendor Rev: 1.0"]
+	node_55 -> node_161
+	node_162 [label="SFP Serial No.: MH242308160558"]
+	node_55 -> node_162
+	node_163 [label="SFP Connector: LC"]
+	node_55 -> node_163
+	node_164 [label="SFP Capabilities: 16, 32, 64 Gbit/Sec"]
+	node_55 -> node_164
+	node_165 [label="slot 3: Fibre Channel Target Host Adapter 3c"]
+	node_55 -> node_165
+	node_166 [label="(Emulex LPe38000 (LPe38004) rev. 14, <ONLINE>)"]
+	node_165 -> node_166
+	node_167 [label="Board Name: 111-05096"]
+	node_165 -> node_167
+	node_168 [label="Serial Number: 042432007337"]
+	node_165 -> node_168
+	node_169 [label="Firmware rev: 14.2.641.1"]
+	node_165 -> node_169
+	node_170 [label="Host Port Addr: 940340"]
+	node_165 -> node_170
+	node_171 [label="FC Nodename: 50:0a:09:80:80:33:b8:77 (500a09808033b877)"]
+	node_165 -> node_171
+	node_172 [label="FC Portname: 50:0a:09:87:80:33:b8:77 (500a09878033b877)"]
+	node_165 -> node_172
+	node_173 [label="Connection: PTP, Fabric"]
+	node_165 -> node_173
+	node_174 [label="Switch Port: sssifc-eob-002:1/43"]
+	node_165 -> node_174
+	node_175 [label="SFP Vendor Name: WTD"]
+	node_55 -> node_175
+	node_176 [label="SFP Vendor P/N: RTXM520-571"]
+	node_55 -> node_176
+	node_177 [label="SFP Vendor Rev: 1.0"]
+	node_55 -> node_177
+	node_178 [label="SFP Serial No.: MH242308160078"]
+	node_55 -> node_178
+	node_179 [label="SFP Connector: LC"]
+	node_55 -> node_179
+	node_180 [label="SFP Capabilities: 16, 32, 64 Gbit/Sec"]
+	node_55 -> node_180
+	node_181 [label="slot 3: Fibre Channel Target Host Adapter 3d"]
+	node_55 -> node_181
+	node_182 [label="(Emulex LPe38000 (LPe38004) rev. 14, <ONLINE>)"]
+	node_181 -> node_182
+	node_183 [label="Board Name: 111-05096"]
+	node_181 -> node_183
+	node_184 [label="Serial Number: 042432007337"]
+	node_181 -> node_184
+	node_185 [label="Firmware rev: 14.2.641.1"]
+	node_181 -> node_185
+	node_186 [label="Host Port Addr: 440300"]
+	node_181 -> node_186
+	node_187 [label="FC Nodename: 50:0a:09:80:80:33:b8:77 (500a09808033b877)"]
+	node_181 -> node_187
+	node_188 [label="FC Portname: 50:0a:09:88:80:33:b8:77 (500a09888033b877)"]
+	node_181 -> node_188
+	node_189 [label="Connection: PTP, Fabric"]
+	node_181 -> node_189
+	node_190 [label="Switch Port: sssifc-eob-001:1/43"]
+	node_181 -> node_190
+	node_191 [label="SFP Vendor Name: WTD"]
+	node_55 -> node_191
+	node_192 [label="SFP Vendor P/N: RTXM520-571"]
+	node_55 -> node_192
+	node_193 [label="SFP Vendor Rev: 1.0"]
+	node_55 -> node_193
+	node_194 [label="SFP Serial No.: MH242308160053"]
+	node_55 -> node_194
+	node_195 [label="SFP Connector: LC"]
+	node_55 -> node_195
+	node_196 [label="SFP Capabilities: 16, 32, 64 Gbit/Sec"]
+	node_55 -> node_196
+	node_197 [label="slot 4: NVRAM (NVRAM 12)"]
+	node_0 -> node_197
+	node_198 [label="Revision: B1"]
+	node_197 -> node_198
+	node_199 [label="Serial Number: 042445015130"]
+	node_197 -> node_199
+	node_200 [label="DIMM Size: 32768 MB"]
+	node_197 -> node_200
+	node_201 [label="Memory Size: 65536 MB"]
+	node_197 -> node_201
+	node_202 [label="Battery Status: Battery sufficiently charged"]
+	node_197 -> node_202
+	node_203 [label="Running Firmware: 1.0.3"]
+	node_197 -> node_203
+	node_204 [label="MCU Revision: 1.4"]
+	node_197 -> node_204
+	node_205 [label="SSD Model: ATP NVMe M.2 2280 AF160GSAJA-NT1"]
+	node_197 -> node_205
+	node_206 [label="SSD Serial Number: 240901210171"]
+	node_197 -> node_206
+	node_207 [label="SSD Firmware: NA01"]
+	node_197 -> node_207
+	node_208 [label="slot 6: Dual 40G/100G Ethernet Controller CX6-DX"]
+	node_0 -> node_208
+	node_209 [label="e6a MAC Address: d0:39:ea:d0:e4:ac (auto-unknown-fd-down)"]
+	node_208 -> node_209
+	node_210 [label="e6b MAC Address: d0:39:ea:d0:e4:ad (auto-unknown-fd-down)"]
+	node_208 -> node_210
+	node_211 [label="Device Type: CX6-DX PSID(NAP0000000024)"]
+	node_208 -> node_211
+	node_212 [label="Firmware Version: 22.41.1000"]
+	node_208 -> node_212
+	node_213 [label="Part Number: 111-05088"]
+	node_208 -> node_213
+	node_214 [label="Hardware Revision: C1"]
+	node_208 -> node_214
+	node_215 [label="Serial Number: 042503003980"]
+	node_208 -> node_215
+	node_216 [label="slot 7: Dual 40G/100G Ethernet Controller CX6-DX"]
+	node_0 -> node_216
+	node_217 [label="e7a MAC Address: d0:39:ea:d0:fa:7f (auto-100g_cr4-fd-up)"]
+	node_216 -> node_217
+	node_218 [label="QSFP Vendor: Amphenol"]
+	node_217 -> node_218
+	node_219 [label="QSFP Part Number: 112-00595"]
+	node_217 -> node_219
+	node_220 [label="QSFP Serial Number: APF20289213502"]
+	node_217 -> node_220
+	node_221 [label="e7b MAC Address: d0:39:ea:d0:fa:80 (auto-unknown-fd-down)"]
+	node_216 -> node_221
+	node_222 [label="QSFP Vendor: "]
+	node_221 -> node_222
+	node_223 [label="QSFP Part Number: "]
+	node_221 -> node_223
+	node_224 [label="QSFP Serial Number: "]
+	node_221 -> node_224
+	node_225 [label="Device Type: CX6-DX PSID(NAP0000000024)"]
+	node_216 -> node_225
+	node_226 [label="Firmware Version: 22.41.1000"]
+	node_216 -> node_226
+	node_227 [label="Part Number: 111-05088"]
+	node_216 -> node_227
+	node_228 [label="Hardware Revision: C1"]
+	node_216 -> node_228
+	node_229 [label="Serial Number: 042503003477"]
+	node_216 -> node_229
+	node_230 [label="slot 8: Dual 40G/100G Ethernet Controller CX6-DX"]
+	node_0 -> node_230
+	node_231 [label="e8a MAC Address: d0:39:ea:d0:e9:f7 (auto-100g_cr4-fd-up)"]
+	node_230 -> node_231
+	node_232 [label="QSFP Vendor: Molex"]
+	node_231 -> node_232
+	node_233 [label="QSFP Part Number: 112-00574"]
+	node_231 -> node_233
+	node_234 [label="QSFP Serial Number: 93A2201220441"]
+	node_231 -> node_234
+	node_235 [label="00.0.0: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701021)"]
+	node_231 -> node_235
+	node_236 [label="00.0.1: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701030)"]
+	node_231 -> node_236
+	node_237 [label="00.0.2: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701023)"]
+	node_231 -> node_237
+	node_238 [label="00.0.3: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701033)"]
+	node_231 -> node_238
+	node_239 [label="00.0.4: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701026)"]
+	node_231 -> node_239
+	node_240 [label="00.0.5: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N700933)"]
+	node_231 -> node_240
+	node_241 [label="00.0.6: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N600636)"]
+	node_231 -> node_241
+	node_242 [label="00.0.7: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N600629)"]
+	node_231 -> node_242
+	node_243 [label="00.0.8: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N700853)"]
+	node_231 -> node_243
+	node_244 [label="00.0.9: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (22452T800515)"]
+	node_231 -> node_244
+	node_245 [label="00.0.10: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (22452T800497)"]
+	node_231 -> node_245
+	node_246 [label="00.0.11: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (22452T800536)"]
+	node_231 -> node_246
+	node_247 [label="00.0.12: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (22414R800110)"]
+	node_231 -> node_247
+	node_248 [label="00.0.13: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (22414R800435)"]
+	node_231 -> node_248
+	node_249 [label="00.0.14: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (22452T800832)"]
+	node_231 -> node_249
+	node_250 [label="00.0.15: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701029)"]
+	node_231 -> node_250
+	node_251 [label="00.0.16: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701013)"]
+	node_231 -> node_251
+	node_252 [label="00.0.17: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N600613)"]
+	node_231 -> node_252
+	node_253 [label="00.0.18: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N700999)"]
+	node_231 -> node_253
+	node_254 [label="00.0.19: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N700866)"]
+	node_231 -> node_254
+	node_255 [label="00.0.20: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701002)"]
+	node_231 -> node_255
+	node_256 [label="00.0.21: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N600644)"]
+	node_231 -> node_256
+	node_257 [label="00.0.22: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N700854)"]
+	node_231 -> node_257
+	node_258 [label="00.0.23: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N700856)"]
+	node_231 -> node_258
+	node_259 [label="Shelf 0: NS224NSM100  Firmware rev. NSM100 A: 0240  NSM100 B: 0240"]
+	node_231 -> node_259
+	node_260 [label="e8b MAC Address: d0:39:ea:d0:e9:f8 (auto-100g_cr4-fd-up)"]
+	node_230 -> node_260
+	node_261 [label="QSFP Vendor: Amphenol"]
+	node_260 -> node_261
+	node_262 [label="QSFP Part Number: 112-00573"]
+	node_260 -> node_262
+	node_263 [label="QSFP Serial Number: APF24449799910"]
+	node_260 -> node_263
+	node_264 [label="01.3.0: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213512800213)"]
+	node_260 -> node_264
+	node_265 [label="01.3.1: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (21352L800401)"]
+	node_260 -> node_265
+	node_266 [label="01.3.2: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213512800478)"]
+	node_260 -> node_266
+	node_267 [label="01.3.3: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (21352L800438)"]
+	node_260 -> node_267
+	node_268 [label="01.3.4: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213512800012)"]
+	node_260 -> node_268
+	node_269 [label="01.3.5: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213512800315)"]
+	node_260 -> node_269
+	node_270 [label="01.3.18: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (21352L800555)"]
+	node_260 -> node_270
+	node_271 [label="01.3.19: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (21350Z800094)"]
+	node_260 -> node_271
+	node_272 [label="01.3.20: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213512800232)"]
+	node_260 -> node_272
+	node_273 [label="01.3.21: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213512800067)"]
+	node_260 -> node_273
+	node_274 [label="01.3.22: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213457800396)"]
+	node_260 -> node_274
+	node_275 [label="01.3.23: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213457800363)"]
+	node_260 -> node_275
+	node_276 [label="Shelf 1: NS224NSM100  Firmware rev. NSM100 A: 0240  NSM100 B: 0240"]
+	node_260 -> node_276
+	node_277 [label="Device Type: CX6-DX PSID(NAP0000000024)"]
+	node_230 -> node_277
+	node_278 [label="Firmware Version: 22.41.1000"]
+	node_230 -> node_278
+	node_279 [label="Part Number: 111-05088"]
+	node_230 -> node_279
+	node_280 [label="Hardware Revision: C1"]
+	node_230 -> node_280
+	node_281 [label="Serial Number: 042503004037"]
+	node_230 -> node_281
+	node_282 [label="slot 9: Dual 40G/100G Ethernet Controller CX6-DX"]
+	node_0 -> node_282
+	node_283 [label="e9a MAC Address: d0:39:ea:d1:04:a2 (auto-unknown-fd-down)"]
+	node_282 -> node_283
+	node_284 [label="e9b MAC Address: d0:39:ea:d1:04:a3 (auto-unknown-fd-down)"]
+	node_282 -> node_284
+	node_285 [label="Device Type: CX6-DX PSID(NAP0000000024)"]
+	node_282 -> node_285
+	node_286 [label="Firmware Version: 22.41.1000"]
+	node_282 -> node_286
+	node_287 [label="Part Number: 111-05088"]
+	node_282 -> node_287
+	node_288 [label="Hardware Revision: C1"]
+	node_282 -> node_288
+	node_289 [label="Serial Number: 042503002879"]
+	node_282 -> node_289
+	node_290 [label="slot 10: Dual 40G/100G Ethernet Controller CX6-DX"]
+	node_0 -> node_290
+	node_291 [label="e10a MAC Address: d0:39:ea:d0:ec:e5 (auto-100g_cr4-fd-up)"]
+	node_290 -> node_291
+	node_292 [label="QSFP Vendor: Amphenol"]
+	node_291 -> node_292
+	node_293 [label="QSFP Part Number: 112-00573"]
+	node_291 -> node_293
+	node_294 [label="QSFP Serial Number: APF20459281824"]
+	node_291 -> node_294
+	node_295 [label="01.0.0: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213512800213)"]
+	node_291 -> node_295
+	node_296 [label="01.0.1: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (21352L800401)"]
+	node_291 -> node_296
+	node_297 [label="01.0.2: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213512800478)"]
+	node_291 -> node_297
+	node_298 [label="01.0.3: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (21352L800438)"]
+	node_291 -> node_298
+	node_299 [label="01.0.4: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213512800012)"]
+	node_291 -> node_299
+	node_300 [label="01.0.5: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213512800315)"]
+	node_291 -> node_300
+	node_301 [label="01.0.18: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (21352L800555)"]
+	node_291 -> node_301
+	node_302 [label="01.0.19: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (21350Z800094)"]
+	node_291 -> node_302
+	node_303 [label="01.0.20: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213512800232)"]
+	node_291 -> node_303
+	node_304 [label="01.0.21: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213512800067)"]
+	node_291 -> node_304
+	node_305 [label="01.0.22: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213457800396)"]
+	node_291 -> node_305
+	node_306 [label="01.0.23: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (213457800363)"]
+	node_291 -> node_306
+	node_307 [label="Shelf 1: NS224NSM100  Firmware rev. NSM100 A: 0240  NSM100 B: 0240"]
+	node_291 -> node_307
+	node_308 [label="e10b MAC Address: d0:39:ea:d0:ec:e6 (auto-100g_cr4-fd-up)"]
+	node_290 -> node_308
+	node_309 [label="QSFP Vendor: Amphenol"]
+	node_308 -> node_309
+	node_310 [label="QSFP Part Number: 112-00574"]
+	node_308 -> node_310
+	node_311 [label="QSFP Serial Number: APF20279209656"]
+	node_308 -> node_311
+	node_312 [label="00.3.0: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701021)"]
+	node_308 -> node_312
+	node_313 [label="00.3.1: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701030)"]
+	node_308 -> node_313
+	node_314 [label="00.3.2: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701023)"]
+	node_308 -> node_314
+	node_315 [label="00.3.3: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701033)"]
+	node_308 -> node_315
+	node_316 [label="00.3.4: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701026)"]
+	node_308 -> node_316
+	node_317 [label="00.3.5: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N700933)"]
+	node_308 -> node_317
+	node_318 [label="00.3.6: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N600636)"]
+	node_308 -> node_318
+	node_319 [label="00.3.7: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N600629)"]
+	node_308 -> node_319
+	node_320 [label="00.3.8: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N700853)"]
+	node_308 -> node_320
+	node_321 [label="00.3.9: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (22452T800515)"]
+	node_308 -> node_321
+	node_322 [label="00.3.10: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (22452T800497)"]
+	node_308 -> node_322
+	node_323 [label="00.3.11: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (22452T800536)"]
+	node_308 -> node_323
+	node_324 [label="00.3.12: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (22414R800110)"]
+	node_308 -> node_324
+	node_325 [label="00.3.13: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (22414R800435)"]
+	node_308 -> node_325
+	node_326 [label="00.3.14: NETAPP   X4013WBORA7T6NTF NA51 7325.4GB 4160B/sect (22452T800832)"]
+	node_308 -> node_326
+	node_327 [label="00.3.15: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701029)"]
+	node_308 -> node_327
+	node_328 [label="00.3.16: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701013)"]
+	node_308 -> node_328
+	node_329 [label="00.3.17: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N600613)"]
+	node_308 -> node_329
+	node_330 [label="00.3.18: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N700999)"]
+	node_308 -> node_330
+	node_331 [label="00.3.19: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N700866)"]
+	node_308 -> node_331
+	node_332 [label="00.3.20: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N701002)"]
+	node_308 -> node_332
+	node_333 [label="00.3.21: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N600644)"]
+	node_308 -> node_333
+	node_334 [label="00.3.22: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N700854)"]
+	node_308 -> node_334
+	node_335 [label="00.3.23: NETAPP   X4013S17337T6NTE NA54 7325.4GB 4160B/sect (S60RNE0N700856)"]
+	node_308 -> node_335
+	node_336 [label="Shelf 0: NS224NSM100  Firmware rev. NSM100 A: 0240  NSM100 B: 0240"]
+	node_308 -> node_336
+	node_337 [label="Device Type: CX6-DX PSID(NAP0000000024)"]
+	node_290 -> node_337
+	node_338 [label="Firmware Version: 22.41.1000"]
+	node_290 -> node_338
+	node_339 [label="Part Number: 111-05088"]
+	node_290 -> node_339
+	node_340 [label="Hardware Revision: C1"]
+	node_290 -> node_340
+	node_341 [label="Serial Number: 042503004255"]
+	node_290 -> node_341
+	node_342 [label="slot 11: Quad 10G/25G Ethernet Controller CX7"]
+	node_0 -> node_342
+	node_343 [label="e11a MAC Address: d0:39:ea:ca:32:7c (auto-unknown-fd-down)"]
+	node_342 -> node_343
+	node_344 [label="SFP Vendor: FINISAR CORP."]
+	node_343 -> node_344
+	node_345 [label="SFP Part Number: FTLF8536P5BCL"]
+	node_343 -> node_345
+	node_346 [label="SFP Serial Number: ND1B3UJ"]
+	node_343 -> node_346
+	node_347 [label="e11b MAC Address: d0:39:ea:ca:32:7d (auto-unknown-fd-down)"]
+	node_342 -> node_347
+	node_348 [label="SFP Vendor: FINISAR CORP."]
+	node_347 -> node_348
+	node_349 [label="SFP Part Number: FTLF8536P5BCL"]
+	node_347 -> node_349
+	node_350 [label="SFP Serial Number: NCTABV2"]
+	node_347 -> node_350
+	node_351 [label="Device Type: CX7-Q PSID(NAP0000000028)"]
+	node_342 -> node_351
+	node_352 [label="Firmware Version: 28.41.1000"]
+	node_342 -> node_352
+	node_353 [label="Part Number: 111-05093"]
+	node_342 -> node_353
+	node_354 [label="Hardware Revision: B1"]
+	node_342 -> node_354
+	node_355 [label="Serial Number: 042445011558"]
+	node_342 -> node_355
+	node_356 [label="slot 11: Quad 10G/25G Ethernet Controller CX7"]
+	node_0 -> node_356
+	node_357 [label="e11c MAC Address: d0:39:ea:ca:32:7e (auto-unknown-fd-down)"]
+	node_356 -> node_357
+	node_358 [label="e11d MAC Address: d0:39:ea:ca:32:7f (auto-unknown-fd-down)"]
+	node_356 -> node_358
+	node_359 [label="Device Type: CX7-Q PSID(NAP0000000028)"]
+	node_356 -> node_359
+	node_360 [label="Firmware Version: 28.41.1000"]
+	node_356 -> node_360
+	node_361 [label="Part Number: 111-05093"]
+	node_356 -> node_361
+	node_362 [label="Hardware Revision: B1"]
+	node_356 -> node_362
+	node_363 [label="Serial Number: 042445011558"]
+	node_356 -> node_363
+}
